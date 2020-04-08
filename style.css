@@ -93,20 +93,20 @@ color:white;
   font-size: 49px;
   font-weight: bold;
   font-family: 'Big Shoulders Display', cursive;
-   /* Font options */
+  
 
 
-   /* Chrome, Safari, Opera */
+  
   -webkit-animation: rainbow 5s infinite; 
   
-  /* Internet Explorer */
+
   -ms-animation: rainbow 5s infinite;
   
-  /* Standar Syntax */
+
   animation: rainbow 5s infinite; 
 }
 
-/* Chrome, Safari, Opera */
+
 @-webkit-keyframes rainbow{
     0%{color: orange;}	
   10%{color: purple;}	
@@ -121,7 +121,7 @@ color:white;
 	100%{color: orange;}
 }
 
-/* Internet Explorer */
+
 @-ms-keyframes rainbow{
     0%{color: orange;}	
   10%{color: purple;}	
@@ -135,7 +135,7 @@ color:white;
   90%{color: DodgerBlue;}
 	100%{color: orange;}
 }
-/* Standar Syntax */
+
 @keyframes rainbow{
     0%{color: orange;}	
   10%{color: purple;}	
@@ -163,13 +163,13 @@ color:white;
   margin: 4px 2px;
   cursor: pointer;
   
-     /* Chrome, Safari, Opera */
+
   -webkit-animation: buao 5s infinite; 
   
-  /* Internet Explorer */
+
   -ms-animation: buao 5s infinite;
   
-  /* Standar Syntax */
+
   animation: buao 5s infinite; 
 }
 @-webkit-keyframes buao{
@@ -199,7 +199,7 @@ color:white;
   90%{background-color: DodgerBlue;}
 	100%{background-color: orange;}
 }
-/* Standar Syntax */
+
 @keyframes buao{
   0%{background-color: orange;}	
   10%{background-color: purple;}	
