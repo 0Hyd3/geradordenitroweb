@@ -1,0 +1,217 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+* {box-sizing: border-box;}
+
+body { 
+color:white;
+  margin: 0;
+	background: linear-gradient(-45deg, #000000 , #2b2b2b);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  padding: 22px;
+  margin-top: 20px;
+
+  border-radius: 15px;
+  width: 450px;
+  height: 510px;
+opacity: 1;
+
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+  opacity: 0.9;
+}
+.header:hover {
+
+  opacity: 1;
+}
+
+.header a {
+  float: left;
+  
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+
+  line-height: 25px;
+  border-radius: 4px;
+  
+}
+.header a.active {
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+.segunda{
+color:white;
+ font-size: 40px;
+  font-weight: bold;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.rainbow {
+  font-size: 49px;
+  font-weight: bold;
+  font-family: 'Big Shoulders Display', cursive;
+   /* Font options */
+
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 5s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}	
+  10%{color: purple;}	
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+.button {
+  border-radius: 15px;
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+     /* Chrome, Safari, Opera */
+  -webkit-animation: buao 5s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: buao 5s infinite;
+  
+  /* Standar Syntax */
+  animation: buao 5s infinite; 
+}
+@-webkit-keyframes buao{
+    0%{background-color: orange;}	
+  10%{background-color: purple;}	
+	20%{background-color: red;}
+  30%{background-color: CadetBlue;}
+	40%{background-color: yellow;}
+  50%{background-color: coral;}
+	60%{background-color: green;}
+  70%{background-color: cyan;}
+  80%{background-color: DeepPink;}
+  90%{background-color: DodgerBlue;}
+	100%{background-color: orange;}
+}
+
+@-ms-keyframes buao{
+  0%{background-color: orange;}	
+  10%{background-color: purple;}	
+	20%{background-color: red;}
+  30%{background-color: CadetBlue;}
+	40%{background-color: yellow;}
+  50%{background-color: coral;}
+	60%{background-color: green;}
+  70%{background-color: cyan;}
+  80%{background-color: DeepPink;}
+  90%{background-color: DodgerBlue;}
+	100%{background-color: orange;}
+}
+/* Standar Syntax */
+@keyframes buao{
+  0%{background-color: orange;}	
+  10%{background-color: purple;}	
+	20%{background-color: red;}
+  30%{background-color: CadetBlue;}
+	40%{background-color: yellow;}
+  50%{background-color: coral;}
+	60%{background-color: green;}
+  70%{background-color: cyan;}
+  80%{background-color: DeepPink;}
+  90%{background-color: DodgerBlue;}
+	100%{background-color: orange;}
+}
+
+
