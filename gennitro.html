@@ -2,11 +2,65 @@
    <title>Gerador Nitro</title>
        <!DOCTYPE html>
 <html>
-	  <link rel="stylesheet" type="text/css" href="style.css">
 <head>
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+	body{
+		background: #1a1a1a;
+	}
+	.footer {
+
+  font-family: 'Montserrat', sans-serif;
+   left: 0;
+   bottom: 0;
+   width: 20%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   position: fixed;
+     border-radius: 0px 10px 0px 0px; 
+  opacity: 0.5;
+       transition: transform .7s;
+       scale:10px;
+}
+.footer:hover {
+ transform: scale(1.04);
+}
+.button {
+	   transition: transform .7s;
+	  font-family: 'Montserrat', sans-serif;
+  border-radius: 25px;
+  background:black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.button:hover {
+	 transform: scale(1.01);
+  color: red;
+}
+.card {
+	 box-shadow: 0 1px 1px 0 white;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  padding: 19px;
+  margin-top: 20px;
+color:white;
+  border-radius: 100px;
+  width: 390px;
+  height: 510px;
+opacity: 1;
+
+}
 
 </style>
 </head>
@@ -16,40 +70,25 @@ $('a[href*="?"]').each(function() {
     alert('Contains question mark');
 });
 </script> 
-<div class="header">
-	
-  <a class="rainbow" class="logo">Gerador de Nitro</a> <a class="segunda"></a>
+<center>
 
- <div class="header-right">
-  
 
-</div>
-<div style="padding-left:20px">
-
-</div>
-
-</div>
 <center><div class="card"> 
+	
  <div id="quoteDisplay">
 
 </div>
+<center><button onclick="newQuote()" class="button" >Gerar</button></center>
+</div>
 
+</center>
+
+<div class="footer">
+  <p>Desenvolvidor Por Hyd3</p>
 </div>
 </center>
-<center><button onclick="newQuote()" class="button" >Gerar</button></center>
-
 <script src="javascript.js"></script></script>
 </body>
 </html>
 
-   <head>
-       
-    </head>
- <script>
-  $('*').filter(function() {
-   return $(this).css('z-index') == 9999999;
-  }).each(function() {
-   $(this).remove(); 
-  });
- </script>
 </html>
